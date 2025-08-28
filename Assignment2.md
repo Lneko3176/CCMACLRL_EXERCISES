@@ -20,9 +20,9 @@ We want to predict a student’s **Exam Score ($y$)** based on the number of **H
 
 We want to fit a **linear regression line** of the form:
 
-\[
+$$
 y = mx + b
-\]
+$$
 
 A new student studied **6 hours**. We want to predict the **Exam Score** using the regression equation.
 
@@ -47,25 +47,25 @@ A new student studied **6 hours**. We want to predict the **Exam Score** using t
 
 ## 2. Compute the Slope $m$ (5 points)
 
-\[
+$$
 m = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2}
-\]
+$$
 
-\[
+$$
 m = ?
-\]
+$$
 
 ---
 
 ## 3: Compute the Intercept $b$ (5 points)
 
-\[
+$$
 b = \frac{\sum y - m \sum x}{n}
-\]
+$$
 
-\[
+$$
 b = ?
-\]
+$$
 
 ---
 
@@ -73,13 +73,13 @@ b = ?
 
 Write the regression line:
 
-\[
+$$
 y = mx + b
-\]
+$$
 
-\[
+$$
 y = ?
-\]
+$$
 
 ---
 
@@ -102,9 +102,9 @@ y = ?
 
 ## 6. Calculate the Sum of Squared Errors (20 points)
 
-\[
+$$
 SSE = \sum (y*i - y*{predict})^2
-\]
+$$
 
 | Student | Hours Studied ($x$) | Exam Score ($y$) | Predicted Exam Score ($y_{predict}$) | $y_i-y_{predict}$ | $(y_i-y_{predict})^2$ |
 | ------- | ------------------- | ---------------- | ------------------------------------ | ----------------- | --------------------- |
@@ -121,15 +121,15 @@ SSE = \sum (y*i - y*{predict})^2
 
 - Get $\bar{y}$ using this formula :
 
-\[
+$$
 \bar{y} = \frac{\sum y_i}{n}
-\]
+$$
 
 - Get $SST$ using this formula :
 
-\[
+$$
 SST = \sum (y_i - \bar{y})^2
-\]
+$$
 
 | Student | Hours Studied ($x$) | Exam Score ($y$) | Mean ($\bar{y}$) | $y_i-\bar{y}$ | $(y_i-\bar{y})^2$ |
 | ------- | ------------------- | ---------------- | ---------------- | ------------- | ----------------- |
@@ -146,13 +146,13 @@ SST = \sum (y_i - \bar{y})^2
 
 - Get $R^2$ using this formula :
 
-\[
+$$
 R^2 = 1 - \frac{SSE}{SST}
-\]
+$$
 
-\[
+$$
 R^2 = ?
-\]
+$$
 
 ---
 
@@ -160,10 +160,10 @@ R^2 = ?
 
 Use your equation to predict the exam score for a student who studied **6 hours**.
 
-\[
+$$
 y = m(6) + b
-\]
+$$
 
-\[
+$$
 y = ?
-\]
+$$
