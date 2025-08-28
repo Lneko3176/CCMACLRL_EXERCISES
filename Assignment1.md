@@ -43,7 +43,7 @@ We want to predict whether they **Pass** or **Fail** using **KNN with k = 3**.
 
 **Note:** Please show all solutions
 
-For each student, compute the **Euclidean distance** from all data points:
+For the new student, compute the **Euclidean distance** from all data points:
 
 $$
 d = \sqrt{(X_1 - 4)^2 + (X_2 - 6)^2}
