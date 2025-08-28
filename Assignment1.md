@@ -2,8 +2,8 @@
 
 Using k-Nearest Neighbours, predict if a student will **Pass (1)** or **Fail (0)** based on:
 
-- $X_1 $ = Hours Studied
-- $X_2 $ = Sleep Hours
+- $X_1$ = Hours Studied
+- $X_2$ = Sleep Hours
 
 ---
 
