@@ -1,4 +1,5 @@
-# Linear Regression Activity: Predicting Exam Scores
+# Assignment 2
+Linear Regression Activity: Predicting Exam Scores
 
 We want to predict a student’s **Exam Score ($y$)** based on the number of **Hours Studied ($x$)**.
 
