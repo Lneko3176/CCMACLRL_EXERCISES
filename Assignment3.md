@@ -6,8 +6,8 @@ An online store wants to predict whether a visitor will **purchase a product $(y
 
 We collect two features about each customer:
 
-- $x₁$ = Time spent browsing the website (minutes)
-- $x₂$ = Number of product pages viewed
+- $x_1$ = Time spent browsing the website (minutes)
+- $x_2$ = Number of product pages viewed
 - $y$ = Purchase outcome (1 = purchase, 0 = no purchase)
 
 We need to use **logistic regression** to model the probability of purchase:
@@ -16,7 +16,11 @@ $$
 \hat{y} = \sigma(w_1 x_1 + w_2 x_2 + b)
 $$
 
-where $$\sigma(z) = \frac{1}{1+e^{-z}}$$
+where 
+
+$$
+\sigma(z) = \frac{1}{1+e^{-z}}
+$$
 
 ---
 
