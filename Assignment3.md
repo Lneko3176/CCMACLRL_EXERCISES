@@ -44,15 +44,19 @@ Initial model parameters:
 ## Tasks
 
 ### 1. Compute Probabilities (5 points)
-   For each customer A to E:
-   - Compute the linear score:  
-     $$
-     z = w_1 x_1 + w_2 x_2 + b
-     $$
-   - Compute the predicted probability:  
-     $$
-     \hat{y} = \sigma(z)
-     $$
+For each customer A to E:
+
+- Compute the linear score:  
+
+$$
+z = w_1 x_1 + w_2 x_2 + b
+$$
+
+- Compute the predicted probability:  
+
+$$
+\hat{y} = \sigma(z)
+$$
 
 | Customer | Time on site (x₁) | Pages viewed (x₂) | Purchase (y) | $\hat{y}$ 
 |----------|-------------------:|------------------:|-------------:|-------------:|
