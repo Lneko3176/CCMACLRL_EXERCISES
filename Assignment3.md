@@ -26,7 +26,7 @@ $$
 
 ## Dataset
 
-| Customer | Time on site ($x_1$) | Pages viewed ($x_2$) | Purchase (y) |
+| Customer | Time on site $x_1$ | Pages viewed $x_2$ | Purchase (y) |
 |----------|-------------------:|------------------:|-------------:|
 | A        | 1                  | 4                 | 0            |
 | B        | 2                  | 3                 | 0            |
