@@ -143,8 +143,7 @@ $$
 | D        | 5                  | 2                 | 1            | ?            | ?            |
 | E        | 6                  | 6                 | 1            | ?            | ?            |
 
-- Report the **new average BCE loss** over all 5 customers. The new average loss must be
-lower than the previous average loss 
+- Report the **new average BCE loss** over all 5 customers. (Note: The new average loss must be lower than the previous average loss)
 
 $$
 New Loss_{avg} = ?
