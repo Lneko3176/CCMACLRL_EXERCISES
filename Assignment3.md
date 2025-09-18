@@ -67,12 +67,14 @@ $$
 | E        | 6                  | 6                 | 1            | ?            |
 
 ### 2. Compute Average Loss (6 points)
-   Compute the Binary Cross-Entropy (BCE) loss for each sample:
-   $$
-   Loss = -\big[ y \ln(\hat{y}) + (1-y)\ln(1-\hat{y}) \big]
-   $$
 
-   - Fill in the table by reporting the **loss per customer**  
+Compute the Binary Cross-Entropy (BCE) loss for each sample:
+
+$$
+Loss = -\big[ y \ln(\hat{y}) + (1-y)\ln(1-\hat{y}) \big]
+$$
+
+- Fill in the table by reporting the **loss per customer**  
  
 | Customer | Time on site (x₁) | Pages viewed (x₂) | Purchase (y) | $\hat{y}$ | $Loss$ |
 |----------|-------------------:|------------------:|-------------:|-------------:|-------------:|
@@ -106,17 +108,18 @@ $$
 
    - Calculate the new slopes $m_1, m_2$  and intercept $b$ :
      
-     $$
-     new m_1 = m_1 - \eta \frac{\partial L}{\partial m_1}, \quad 
-     new m_2 = m_2 - \eta \frac{\partial L}{\partial m_2}, \quad
-     new b = b - \eta \frac{\partial L}{\partial b}
-     $$
+$$
+new m_1 = m_1 - \eta \frac{\partial L}{\partial m_1}, \quad 
+new m_2 = m_2 - \eta \frac{\partial L}{\partial m_2}, \quad
+new b = b - \eta \frac{\partial L}{\partial b}
+$$
 
-     $$
-     new m_1 = ?, \quad
-     new m_2 = ?, \quad
-     new b = ?
-     $$
+$$
+new m_1 = ?, \quad
+new m_2 = ?, \quad
+new b = ?
+$$
+
 ### 4. Compute new probabilities using the new slopes and intercept (5 points)
 
 | Customer | Time on site (x₁) | Pages viewed (x₂) | Purchase (y) | new $\hat{y}$ 
@@ -145,8 +148,4 @@ $$
 New Loss_{avg} = ?
 $$
 
-### 6. **Interpretation**  
-   Explain what the updated weights mean in the context of the problem:
-   - Does spending more time on the site increase or decrease the probability of purchase?  
-   - Does viewing more pages increase or decrease the probability of purchase?  
 
